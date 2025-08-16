@@ -2,42 +2,68 @@
 
 React 18 + TypeScript + Vite + TailwindCSS + Storybook + Vitest
 
-## Quick Start
+1. **Project Title + Stack Info**
+   # NoFeeSwap UI Components
+React 18 + TypeScript + Vite + TailwindCSS + Storybook + Vitest
 
-1. **Install**
-   ```bash
-   npm i
-   ```
 
-2. **Run demo app**
-   ```bash
-   npm run dev
-   # open http://localhost:5173
-   ```
+2. **Short Description**
+   A reusable UI components library featuring InputField and DataTable.
+Includes Storybook documentation, unit tests, and TailwindCSS styling with dark mode support.
 
-3. **Run Storybook (component docs & playground)**
-   ```bash
-   npm run storybook
-   # open http://localhost:6006
-   ```
 
-4. **Tests**
-   ```bash
-   npm run test
-   ```
+3. **Quick Start**
+   ### Install
+npm install
 
-5. **Build**
-   ```bash
-   npm run build
-   ```
+### Run demo app
+npm run dev
+# open http://localhost:5173
 
-## Deploy Storybook
+### Run Storybook
+npm run storybook
+# open http://localhost:6006
 
-- **Chromatic**: connect your repo and run `npx chromatic --project-token=XXXX`.
-- **Vercel**: add project, set build command `npm run build-storybook`, output `.storybook-static/`.
+### Run tests
+npm run test
+
+### Build
+npm run build
+
+4. **Storybook Preview Link**
+  ## 🌐 Storybook Preview
+[View Storybook on Chromatic](https://68a0cd3b4a715c4e18865a3b-epubnghqha.chromatic.com/)
+
+
+5. **Approach (short explanation)**
+   ## 💡 Approach
+- Created fully reusable, accessible components (`InputField`, `DataTable`) with TypeScript typings.
+- `InputField` supports multiple variants, sizes, loading, error messages, clearable input, and password toggle.
+- `DataTable` supports sorting, row selection, loading state, and empty state handling.
+- TailwindCSS used for styling with responsive design and dark mode support.
+- Storybook used for interactive component documentation and testing different props.
+
+
+5. **Folder Structure**
+   ## 📂 Folder Structure
+src/
+  components/
+  stories/
+  tests/
+.storybook/
+package.json
+vite.config.ts
+tailwind.config.js
+tsconfig.json
 
 ## Notes
 
-- Components are typed with generics where applicable and include basic ARIA attributes.
-- Styling uses Tailwind; dark mode enabled by adding `class="dark"` on `html`/`body`.
-- `DataTable` supports sorting, selection, loading and empty states.
+## 📝 Notes
+- Components include ARIA attributes for accessibility.
+- TailwindCSS with dark mode enabled via class="dark".
+- Easily deployable Storybook via Chromatic or Vercel.
+
+## License
+
+## 📜 License
+MIT © 2025 [Arham Ali](https://arhamm-portfolio.netlify.app/)
